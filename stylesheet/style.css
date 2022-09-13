@@ -80,6 +80,7 @@ header {
 /* Profile icon (START) */
 .home-icon {
   margin-top: 4rem;
+  margin-bottom: 6rem;
   padding: 2rem 2rem 2rem 2rem;
   width: fit-content;
   height: fit-content;
@@ -219,6 +220,7 @@ footer {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  cursor: pointer;
   border-radius: 10px;
 }
 
@@ -325,6 +327,7 @@ textarea{
     margin-right: auto;
     padding: 12px 20px;
     box-sizing: border-box;
+    color: black;
     border: 2px solid #ccc;
     background-color: white;
     border-radius: 4px;
