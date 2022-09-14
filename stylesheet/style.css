@@ -242,67 +242,6 @@ footer {
 
 /* Button Group (END) */
 
-/* Blog Card (START) */
-
-/* Full Section */
-.blog-section {
-  margin-top: 6rem;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  display: block;
-}
-
-/* Style No 1 */
-.blog-section-style1 {
-  border-radius: 1rem;
-  background-color: black;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  color: white;
-  height: auto;
-}
-
-/* Style No 2 */
-.blog-section-style2 {
-  border-radius: 1rem;
-  height: auto;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  color: white;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  background-color: #3366ff;
-}
-
-/* Icons for Section 2 */
-.blog-tech-icon {
-  display: inline;
-  align-items: justify;
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-/* Title of a section */
-.blog-section-head {
-  padding-top: 1.5rem;
-  display: block;
-  align-items: justify;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Content of a Section */
-.blog-section-content {
-  padding-bottom: 2.5rem;
-  display: block;
-  align-items: justify;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Blog Card (End) */
-
 
 /* Custom Text Area */
 

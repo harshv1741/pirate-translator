@@ -1,19 +1,19 @@
 // Declaring variables for accessing html elements.
 const msg = document.querySelector("#msg");
-var arrgh = document.querySelector('#arrgh');
+var ferbLatin = document.querySelector('#myferb');
 var output = document.querySelector('#output')
 
 // The API we are going to form connection with.
 var serverURL = "https://api.funtranslations.com/translate/pirate.json";
 
 // Getting the translated text
-function getTransUrl(text){
-    return serverURL+ "?"+"text="+text;
+function getTransUrl(txt){
+    return serverURL + "?" + "text=" + txt;
 }
 
 // Handling the error.
 function errorHandler(error){
-    console.log("Error Occured" + error)
+    console.log("Error Occured " + error)
     alert("Something is wrong with api server! Please come again later....")
 }
 
@@ -29,4 +29,4 @@ function clickEventHandler(){
 }
 
 
-arrgh.addEventListener("click",clickEventHandler);
+ferbLatin.addEventListener("click",clickEventHandler());
