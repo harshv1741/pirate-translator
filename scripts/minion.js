@@ -1,7 +1,7 @@
 // const message = document.getElementById("message");
 
 const message = document.querySelector('#message');
-var btnTranslate = document.querySelector('#translate');
+var banana = document.querySelector('#banana');
 var textOutput = document.querySelector('#output');
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
@@ -33,4 +33,4 @@ function clickHandler(){
 };
 
 // Handling click event
-btnTranslate.addEventListener("click",clickHandler);
+banana.addEventListener("click",clickHandler);
