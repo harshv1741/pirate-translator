@@ -1,8 +1,10 @@
-// const message = document.getElementById("message");
+// Author: Harsh Vyapari
+// Description: This script is used for connection and getting translation text from
+//  fun translation API in minion webpage
 
 const message = document.querySelector('#message');
-var btnTranslate = document.querySelector('#translate');
-var textOutput = document.querySelector('#output');
+var banana = document.querySelector('#banana');
+var translatedOP = document.querySelector('#output');
 
 var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
@@ -24,7 +26,7 @@ function clickHandler(){
     .then(getResponse => getResponse.json()) // Getting Response in json file
     .then(getJson => {
         var translatedText = getJson.contents.translated;
-        textOutput.innerText = translatedText;
+        translatedOP.innerText = translatedText;
 
     }) // getting only translated text from json file
     .catch(errorHandler)
@@ -33,4 +35,4 @@ function clickHandler(){
 };
 
 // Handling click event
-btnTranslate.addEventListener("click",clickHandler);
+banana.addEventListener("click",clickHandler);
