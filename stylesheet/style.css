@@ -320,7 +320,7 @@ textarea{
   resize: none;
 }
 
-#output{
+.translated-text{
     width: 70%;
     height: 150px;
     margin-left: auto;

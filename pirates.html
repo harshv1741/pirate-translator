@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/style.css">
     <title>Arrgh.....</title>
 </head>
 <body>
@@ -12,11 +13,114 @@
         <div class="navbar">
             <nav>
                 <div class="navbar-head">
-                    <h2></h2>
+                    <h2>Fun Translator</h2>
+                </div>
+                <div class="navbar-link-list">
+                    <h3>
+                        <li class="navbar-link-inline">
+                            <a class="navbar-link" href="/">Minion</a>
+                          </li>
+                          <li class="navbar-link-inline">
+                            <a class="navbar-link" href="/pirates.html">Pirates</a>
+                          </li>
+                    </h3>
                 </div>
             </nav>
         </div>
     </header>
     <!-- Navbar (END) -->
+
+    <!-- Home Icon  (START) -->
+    <div class="home-icon">
+        <img src="icon/sea-of-thieves.svg" alt="Minion">
+    </div>
+    <!-- Home Icon 🛑 (END) -->
+
+    <!-- Main Function (START) -->
+
+    <!-- Input Section -->
+    <div class="section-style1">
+        <div class="section-head">
+            <h2 class="title">User Text</h2>
+        </div>
+        
+        <div class="section-content">            
+            <textarea name="message" id="msg" cols="30" rows="10" placeholder="Please Type Your Text......"></textarea>
+            <br><br>
+            <button id="arrgh" class="btn btn-primary">Arrgh....!</button>
+        </div>
+    </div>
+
+    <div class="section-style2">
+        <div class="section-head">
+            <h2 class="title">Pirate's Tongue!</h2>            
+        </div>
+
+        <div class="section-content">
+            <h3 class="content">
+                <div class="translated-text" id="output"></div>
+            </h3>
+        </div>
+
+    </div>
+    <!-- Main Function (END) -->
+
+    <!-- Footer (START) -->
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Footer Head -->
+          <div class="footer-head">
+            <h2>Contact Me</h2>
+          </div>
+          
+          <!-- Footer Icons -->
+          <div class="footer-content">
+            <div class="footer-icon">
+              <a href="https://www.github.com/harshv1741"
+              ><img src="icon/footer-github.svg" alt="Go to my github"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://www.facebook.com/harshv1741"
+                ><img src="icon/footer-facebook.svg" alt="Go to my facebook"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://instagram.com/harshv1741"
+                ><img src="icon/footer-instagram.svg" alt="Go to my instagram"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://www.twitter.com/harshv1741"
+              ><img src="icon/footer-twitter.svg" alt="Go to my twitter"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="https://www.linkedin.com/in/harsh-vyapari-75689917a/"
+              ><img src="icon/footer-linkedin.svg" alt="Go to my linkedin"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="mailto:harshv1741@gmail.com"
+              ><img src="icon/footer-gmail.svg" alt="Mail me on Gmail"
+              /></a>
+            </div>
+            <div class="footer-icon">
+              <a href="mailto:harshv1741@outlook.com"
+              ><img src="icon/footer-outlook.svg" alt="Mail me on Outlook"
+              /></a>
+            </div>
+            <br />
+            <h3 id="#page-end">
+              <br />
+              Made with 💖 by Harsh Vyapari <br /><br />
+              Powered by Netlify
+            </h3>
+          </div>
+          <br />
+        </div>
+      </footer>
+      <script src="scripts/pirates.js"></script>
+      <!-- Footer (END) -->
 </body>
 </html>
