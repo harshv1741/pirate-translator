@@ -1,13 +1,15 @@
-/* The Main navigation Bar */
 /* 1. Lato */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"); */
 
 /* 2. Roboto */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+
+/* 3. Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 body {
   /* Importing fonts from google */
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* NavBar (START) */
@@ -97,7 +99,6 @@ header {
 .section {
   margin-top: 6rem;
   text-align: center;
-  font-family: "Lato", sans-serif;
   display: block;
 }
 
@@ -242,10 +243,9 @@ footer {
 
 /* Button Group (END) */
 
-
 /* Custom Text Area */
 
-textarea{
+textarea {
   width: 70%;
   height: 150px;
   margin-left: auto;
@@ -259,17 +259,17 @@ textarea{
   resize: none;
 }
 
-.translated-text{
-    width: 70%;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    color: black;
-    border: 2px solid #ccc;
-    background-color: white;
-    border-radius: 4px;
-    font-size: 16px;
-    resize: none;
+.translated-text {
+  width: 70%;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  color: black;
+  border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
 }
