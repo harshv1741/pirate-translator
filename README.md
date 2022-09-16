@@ -1,2 +1,2 @@
-# Fun Translation
+# Pirate Translator
 
